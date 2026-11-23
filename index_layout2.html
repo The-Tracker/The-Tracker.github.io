@@ -1,26 +1,6 @@
 ---
 layout: default
-title : Homepage
-navbar_title: Home (Layout 2)
+title: Homepage
+navbar_title: Homepage
 ---
-{% include widgets/profile_card.html %}
-
-{% if site.data.display.homepage.show_experience %}
-    {% include widgets/experience_card.html %}
-{% endif %}
-
-{% if site.data.display.homepage.show_news %}
-    {% assign count_news = site.news | size %}
-    {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-    {% endif %}
-{% endif %}
-
-{% if site.data.display.homepage.show_selected_publications %}
-    {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-    {% 
-        include widgets/publication_card.html 
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-    %}
-{% endif %}
+<div class="card border-0 shadow-sm bg-white"><div class="card-body p-4"><h1 class="h3">Homepage</h1><p class="text-muted mb-3">Please visit the main academic homepage for the current profile and research overview.</p><a href="{{ '/' | relative_url }}">Back to homepage</a></div></div>

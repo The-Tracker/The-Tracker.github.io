@@ -1,0 +1,23 @@
+# Selected team competition awards provided by the site owner.
+# English names are descriptive translations, not claimed official translations.
+awards:
+  - year: "2026"
+    competition: "National Enterprise Competition Simulation Competition (全国企业竞争模拟大赛)"
+    award: "Second Prize"
+    level: "National"
+    participation: "Team"
+  - year: "2025"
+    competition: "China International College Students' Innovation Competition — Jilin Provincial Contest (中国国际大学生创新大赛吉林赛区)"
+    award: "Gold Award"
+    level: "Provincial (Jilin)"
+    participation: "Team"
+  - year: "2025"
+    competition: "15th National College Students' Market Research and Analysis Competition — Jilin Provincial Contest (第十五届全国大学生市场调查与分析大赛吉林赛区)"
+    award: "First Prize"
+    level: "Provincial (Jilin)"
+    participation: "Team"
+  - year: "2025"
+    competition: "Contemporary Undergraduate Mathematical Contest in Modeling — Jilin Provincial Contest (高教社杯全国大学生数学建模竞赛吉林赛区)"
+    award: "Second Prize"
+    level: "Provincial (Jilin)"
+    participation: "Team"

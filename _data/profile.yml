@@ -3,50 +3,30 @@ secondary_name: "董洁"
 navbar_name: "Jie Dong"
 
 positions:
-  - name: "Undergraduate Student, Big Data Management and Application"
-  - name: "School of Business and Management, Jilin University"
+  - name: "Undergraduate Student"
+  - name: "Big Data Management and Application"
+  - name: "Jilin University"
 
-# Add a contact email when you choose an address to publish.
 email: ""
 github: "The-Tracker"
 # orcid: "YOUR_REAL_ORCID_ID"
 # gscholar: "YOUR_REAL_GOOGLE_SCHOLAR_ID"
+# portrait_url: "/assets/images/photos/portrait.jpg"
 # cv_link: "/assets/files/CV.pdf"
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am an undergraduate student majoring in Big Data Management and Application
-    at the School of Business and Management, Jilin University, China.
-    My research interests lie at the intersection of information resource management,
+    I am an undergraduate student majoring in <strong>Big Data Management and Application</strong>
+    at the School of Business and Management, <strong>Jilin University</strong>, China.
+    My academic interests focus on the intersection of information resource management,
     artificial intelligence, and knowledge discovery.
   </p>
   <p>
-    My current research activities include extracting research questions and research
-    methods from scientific publications, bibliometric analysis of research trends,
-    and exploring the integration of digital and intelligent technologies
+    My current work explores extracting research questions and methods from scientific
+    literature, bibliometric analysis, and the integration of intelligent technologies
     with information resource management.
   </p>
-  <p><strong>Research Interests</strong><br>
-    Information Resource Management; AI for Scientific Research;
-    Scientometrics and Knowledge Discovery; Intelligent Libraries.
-  </p>
-  <p><strong>Selected Research Activities</strong></p>
-  <ul>
-    <li><strong>Research question and method extraction:</strong> investigating
-    structured extraction of research questions, methods, and their relationships
-    from scientific abstracts.</li>
-    <li><strong>Bibliometric analysis:</strong> analyzing thematic patterns
-    and research trends in library and information science.</li>
-    <li><strong>Digital-intelligent information resource management:</strong>
-    exploring the intersection of traditional Chinese culture,
-    intelligent technologies, and discipline-specific knowledge systems.</li>
-  </ul>
-  <p>Publication records and academic identifiers will be added after verification.</p>
-
-# Do not show the template author's sample photograph.
-# Upload your own photo to assets/images/photos/portrait.jpg, then uncomment:
-# portrait_url: /assets/images/photos/portrait.jpg
 
 education:
   - name: "Jilin University"

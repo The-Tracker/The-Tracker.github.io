@@ -56,11 +56,17 @@ navbar_title: Home
 
     <section class="card border-0 shadow-sm bg-white mt-3" id="honors">
       <div class="card-body p-4">
-        <h2 class="h4 mb-3">Selected Honors &amp; Awards</h2>
-        <ul class="mb-0 honors-list">
-          <li>University Second-Class Scholarship <span class="text-muted">· 2024</span></li>
-          <li>University Third-Class Scholarship <span class="text-muted">· 2025</span></li>
-        </ul>
+        <h2 class="h4 mb-3">Honors &amp; Awards</h2>
+        {% for group in site.data.honors.groups %}
+        <div class="honors-group{% unless forloop.first %} mt-3{% endunless %}">
+          <h3 class="h6 text-muted mb-2">{{ group.period }}</h3>
+          <ul class="honors-list mb-0">
+            {% for award in group.items %}
+            <li>{{ award }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
       </div>
     </section>
 

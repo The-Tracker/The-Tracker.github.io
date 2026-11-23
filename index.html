@@ -1,39 +1,78 @@
 ---
 layout: default
-title : Homepage
+title: Academic Homepage
 navbar_title: Home
 ---
 
-<div class="row">
-    <div class="col-lg-3 col-md-4">
-        {% include widgets/profile_card_mini.html %}
-    </div>
-    <div class="col-lg-9 col-md-8">
+<div class="row academic-home">
+  <aside class="col-lg-3 col-md-4 mb-3 mb-md-0">
+    {% include widgets/profile_card_mini.html %}
+  </aside>
+  <div class="col-lg-9 col-md-8">
+    {% include widgets/profile_card_bio_only.html %}
 
-        {% include widgets/profile_card_bio_only.html %}
+    <section class="card border-0 shadow-sm bg-white mt-3" id="research">
+      <div class="card-body p-4">
+        <h2 class="h4 mb-3">Research Interests</h2>
+        <div class="research-tags">
+          <span>Information Resource Management</span>
+          <span>AI for Scientific Research</span>
+          <span>Scientometrics &amp; Knowledge Discovery</span>
+          <span>Intelligent Libraries</span>
+        </div>
+      </div>
+    </section>
 
-        <!-- Debugging widgets -->
-        {% include widgets/debug_repo_name.html %}
-        {% include widgets/debug_url.html %}
+    <section class="card border-0 shadow-sm bg-white mt-3" id="projects">
+      <div class="card-body p-4">
+        <h2 class="h4 mb-3">Research Projects</h2>
+        <div class="research-entry">
+          <h3 class="h6 mb-1">Research Question–Method Extraction from Scientific Literature</h3>
+          <p class="mb-0 text-muted">Exploring structured identification of research questions, research methods, and their relationships in scientific publications using large language models.</p>
+        </div>
+        <div class="research-entry">
+          <h3 class="h6 mb-1">Bibliometric Analysis of Library and Information Science</h3>
+          <p class="mb-0 text-muted">Analyzing thematic distributions, disciplinary patterns, and research trends in funded research projects.</p>
+        </div>
+        <div class="research-entry">
+          <h3 class="h6 mb-1">Traditional Chinese Culture and Digital-Intelligent Technologies</h3>
+          <p class="mb-0 text-muted">Investigating how intelligent technologies and traditional Chinese cultural knowledge can inform innovation in information resource management.</p>
+        </div>
+      </div>
+    </section>
 
-        {% if site.data.display.homepage.show_experience %}
-            {% include widgets/experience_card.html %}
-        {% endif %}
+    <section class="card border-0 shadow-sm bg-white mt-3" id="education">
+      <div class="card-body p-4">
+        <h2 class="h4 mb-3">Education</h2>
+        <div class="d-flex flex-column flex-sm-row justify-content-between">
+          <div>
+            <strong>Jilin University</strong>
+            <div>Big Data Management and Application</div>
+            <div class="text-muted small">School of Business and Management · Undergraduate studies</div>
+          </div>
+          <div class="text-muted small mt-1 mt-sm-0">Sep. 2023 – Present</div>
+        </div>
+      </div>
+    </section>
 
-        {% if site.data.display.homepage.show_news %}
-        {% assign count_news = site.news | size %}
-        {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-        {% endif %}
-        {% endif %}
+    <section class="card border-0 shadow-sm bg-white mt-3" id="patents">
+      <div class="card-body p-4">
+        <h2 class="h4 mb-3">Patent</h2>
+        <p class="mb-1"><strong>一种新能源汽车动力系统智能能耗优化方法及系统</strong></p>
+        <p class="text-muted mb-0">Authorized invention patent · First inventor. Patent number and verification link to be added.</p>
+      </div>
+    </section>
 
-        {% if site.data.display.homepage.show_selected_publications %}
-        {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-        {%
-        include widgets/publication_card.html
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-        %}
-        {% endif %}
-    </div>
+    <section class="card border-0 shadow-sm bg-white mt-3" id="honors">
+      <div class="card-body p-4">
+        <h2 class="h4 mb-3">Selected Honors &amp; Awards</h2>
+        <ul class="mb-0 honors-list">
+          <li>University Second-Class Scholarship <span class="text-muted">· 2024</span></li>
+          <li>University Third-Class Scholarship <span class="text-muted">· 2025</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <p class="small text-muted mt-3 mb-0">Publication details, academic profiles, and contact information will be added after verification.</p>
+  </div>
 </div>

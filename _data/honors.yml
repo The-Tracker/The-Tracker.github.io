@@ -1,0 +1,28 @@
+# Honors and awards, based on the academic-year records supplied by the site owner.
+# Official English award titles should be updated if the issuing institution provides them.
+groups:
+  - period: "2025–2026 Academic Year"
+    items:
+      - "First-Class Academic Scholarship, Jilin University"
+      - "Moral Excellence Award, Jilin University"
+      - "Outstanding Student Leader, Jilin University"
+      - "Outstanding Student, Jilin University"
+      - "Top Ten Student Leaders, School of Business and Management, Jilin University"
+  - period: "2025"
+    items:
+      - "Outstanding Communist Youth League Cadre (Undergraduate), Jilin University"
+  - period: "2024–2025 Academic Year"
+    items:
+      - "Third-Class Academic Scholarship, Jilin University"
+      - "Moral Excellence Award, Jilin University"
+      - "Outstanding Student Leader, Jilin University"
+      - "Outstanding Staff Member, School of Business and Management, Jilin University"
+  - period: "2024"
+    items:
+      - "Outstanding Communist Youth League Member (Undergraduate), Jilin University"
+  - period: "2023–2024 Academic Year"
+    items:
+      - "Second-Class Academic Scholarship, Jilin University"
+      - "Moral Excellence Award, Jilin University"
+      - "Outstanding Student, School of Business and Management, Jilin University"
+      - "Outstanding Student Leader, School of Business and Management, Jilin University"
